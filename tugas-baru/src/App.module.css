@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  gap: 16px;
+  padding: 16px 24px;
+  background: #1e293b;
+}
+
+.link {
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.link:hover {
+  background: #334155;
+}
+
+.active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.content {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
